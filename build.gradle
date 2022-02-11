@@ -1,5 +1,5 @@
 plugins {
-	id 'org.springframework.boot' version '2.6.2'
+	id 'org.springframework.boot' version '2.3..0RELEASE'
 	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
 	id 'java'
 }
@@ -24,11 +24,7 @@ dependencies {
 	//implementation 'org.postgresql:postgresql'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
-jar{
-	manifest{
-		attributes('Main-Class':'com.minhub.homebacking.HomebackingApplication')
-	}
-}
+
 
 
 test {
