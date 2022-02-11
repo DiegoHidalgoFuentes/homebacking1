@@ -24,6 +24,11 @@ dependencies {
 	//implementation 'org.postgresql:postgresql'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
+jar{
+	manifest{
+		attributes('Main-Class':'com.minhub.HomebackingApplication')
+	}
+}
 
 
 test {
